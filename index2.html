@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+</head>
+<body>
+    <h1>Form in HTML</h1>
+
+    <label for="salu">Salutation:</label>
+    <select name="salutation" id="salu">
+        <option value="none">None</option>
+        <option value="mr">Mister</option>
+        <option value="ms">Mistress</option>
+    </select>
+
+    <table>
+        <tr>
+            <td><label for="first">First Name:</label></td>
+            <td><input type="text" id="first" name="first" placeholder="Enter your First Name" required></td>
+        </tr>
+        <tr>
+            <td><label for="last">Last Name:</label></td>
+            <td><input type="text" id="last" name="last" placeholder="Enter your Last Name" required></td>
+        </tr>
+        <tr>
+            <td><label>Gender:</label></td>
+            <td>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
